@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katchulo.PowerDapper.Infra", "Katchulo.PowerDapper.Infra\Katchulo.PowerDapper.Infra.csproj", "{3F87EDDB-0FED-48EF-AA4E-8A89652D9DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katchulo.PowerDapper.Tests", "Katchulo.PowerDapper.Test\Katchulo.PowerDapper.Tests.csproj", "{F38A78E9-22F8-47F9-A48B-92562A86B55D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F87EDDB-0FED-48EF-AA4E-8A89652D9DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F87EDDB-0FED-48EF-AA4E-8A89652D9DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F87EDDB-0FED-48EF-AA4E-8A89652D9DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F87EDDB-0FED-48EF-AA4E-8A89652D9DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38A78E9-22F8-47F9-A48B-92562A86B55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38A78E9-22F8-47F9-A48B-92562A86B55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38A78E9-22F8-47F9-A48B-92562A86B55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38A78E9-22F8-47F9-A48B-92562A86B55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
