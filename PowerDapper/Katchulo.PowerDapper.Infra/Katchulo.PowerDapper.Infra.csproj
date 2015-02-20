@@ -50,6 +50,7 @@
     <Compile Include="Dapper\SqlMapperExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Criteria.cs" />
+    <None Include="PowerDapper.1.0.0.nupkg" />
     <None Include="Repository\CriteriaBuilder.cs" />
     <Compile Include="Repository\DynamicDictionary.cs" />
     <Compile Include="Repository\IGetCriteria.cs" />
